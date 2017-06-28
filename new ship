@@ -1,0 +1,15 @@
+new = '''
+You are heavily wounded after fighting another crew but you manage to still get away.
+You see the coastguard and hear the sirens approaching. What do you do?
+1. Lead a high speed chase?
+2. Jump overboard?
+'''
+print (new)
+action_option = int(input("Enter an Option "))
+if action_option == 1:
+    print ("The coastguard catches you because of the chase. They then throw you into a stinky, rat filled cell.")
+elif action_option == 2:
+    print ("You unfortunately drown because the current is too strong.")
+else:
+    print ("invalid answer")
+print ("The End")
