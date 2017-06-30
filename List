@@ -1,0 +1,12 @@
+from random import *
+print ("Do you want a common or rare name?")
+     option = ("Do you want a common or rare name?")
+
+#Create the list of words you want to choose from.
+word_list = ["Alana", "Johnny" , "Laura" , "Armon" , "May" , "Alex" , "Jade", "Rob" , "Justine" , "Dan" , "Lilian" , "Jacob", "Zoey", "Isaiah", "Allison" , ]
+
+
+
+#Generates a random integer.
+x = randint(0, len(word_list)-1)
+print(word_list[x])
