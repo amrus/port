@@ -1,0 +1,22 @@
+grocery= []
+
+keepAdding = True
+
+
+while keepAdding:
+  groceryItem = input("Enter item to add to your grocery list" )
+  grocery.append(groceryItem)
+
+  #Check if the user wants to keep adding
+  addMoreItems = input("Do you want to add more items Y/N ?")
+  if addMoreItems == "Y":
+      keepAdding = True
+  else:
+      keepAdding = False
+
+print ("This is my entire grocery list: " , grocery)
+print ("Here is my,", grocery, "grocery")
+print ("The first item on my list is" , grocery [0])
+
+for item in grocery:
+    print (item)
