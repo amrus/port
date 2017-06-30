@@ -1,0 +1,41 @@
+#function to add numbers in the given list
+def add(number_list):
+    result = 0
+    for number in number_list:
+        result = result + int(number)
+    return result
+#Function to find the average of numbers in the given list
+def average(number_list):
+    result = 0
+    listLength = len(number_list)
+    listSum = 0
+    listLength = len(number_list)
+    listSum = add(number_list)
+    result = listSum/listLength
+    return result
+
+# Subtraction to find the average of numbers in the given list
+def subtract(number_list):
+    result = 0
+    result = result - int(number)
+
+
+
+# Our main program starts here
+answer = 0
+option = input("Do you wnat to add, find an average, oe subtract add/average")
+if option != "add" and option != "average":
+    print ("Invalid Option")
+    exit()
+numbersIn = input("Enter numbers seperated by a comma:" )
+
+numberslist = numbersIn.split(",")
+if option == "add":
+    answer = add(numberslist)
+elif option == "average":
+    answer = average(numberslist)
+elif option == "subtract":
+    answer = 
+
+
+print ("The answer is", answer)
