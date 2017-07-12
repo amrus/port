@@ -1,0 +1,22 @@
+void loop() {
+  servoLeft.writeMicroseconds(1700); //left wheel, robot is going clockwise
+  servoRight.writeMicroseconds(1300); //pause
+  delay(600);
+  servoRight.writeMicroseconds(1300);
+  servoLeft.writeMicroseconds(1500); // right wheel, robot goes counter clockwise
+  delay(600);
+  servoRight.writeMicroseconds(1500); //left wheel, robot is going clockwise
+  servoLeft.writeMicroseconds(1700); //pause
+  delay(600);
+  servoRight.writeMicroseconds(1300);
+  servoLeft.writeMicroseconds(1500); // right wheel, robot goes counter clockwise
+  delay(600);
+
+  servoLeft.writeMicroseconds(1700); // circle, left wheel, robot is going clockwise
+  servoRight.writeMicroseconds(1500); //pause
+  delay(500);
+  servoLeft.writeMicroseconds(1500);
+  servoRight.writeMicroseconds(1300); // right wheel, robot goes counter clockwise
+  delay(600);
+  
+}
