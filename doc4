@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- Set the style of the table -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+
+    <style>
+      body{
+        color: inherit;
+        font-family: 'Open Sans', sans-serif;
+      }
+      table, th, td{
+        border: 2px solid #01426a;
+        border-collapse: collapse;
+        padding: 15px;
+        text-align: center;
+        vertical-align: middle;
+        color: #01426a
+      }
+      th  {
+        background-color: #ece81a
+      }
+      tr:hover {background-color: #ece81a}
+    </style>
+  </head>
+
+  <body>
+
+    <!-- Table starts here-->
+    <div style ="overflow-x:auto;">
+      <table style="width:90%; margin:1em auto">
+
+        <!-- Define the first row of the table -->
+        <tr>
+          <th>Core4 Concept</th>
+          <th>Technical Definition</th>
+          <th>Real-Life Analogy</th>
+          <th>Python Example</th>
+          <th>Scratch Example</th>
+        </tr>
+
+        <!-- Fill in the row for Variables -->
+        <tr>
+        <td><b>3 Pin Header</b></td>
+          <td> Something that stores a value </td>
+          <td> Cubbies store items your items or items you choose to store. </td>
+          <td> user input </td>
+          <td> In scratch, if you ask the user to play a game with points. The points variable can be set at 0 and change as the user play.  </td>
+        </tr>
+
+        <!-- Fill in the row for Loops -->
+        <tr>
+          <td><b>Loops</b></td>
+          <td> Something that repeats a set of blocks. It can be used forever or for a certain set of times. </td>
+          <td> A siren signals other drivers many times as needed.  </td>
+          <td> One python you can put while near the top to loop all your blocks of code. </td>
+          <td> On scratch I used the forever loop for my paddle game. I wanted the ball to keep randomly moving.   </td>
+        </tr>
+
+        <!-- Fill in the row for Conditionals -->
+        <tr>
+          <td><b>Conditionals</b></td>
+          <td> Condtionals allow you to do different actions depending on the situation.</td>
+          <td> If you do all your homework then, you'll get a good grade. If else, you fail. </td>
+          <td> On python, I designed a Text Adventure game. In this game, I use if +  a variable == whatever the user types in to get the next option. </td>
+          <td> On scratch, I use the if then blocks in the paddle game. If the ball touches the paddle then give points. Else no points. </td>
+        </tr>
+
+        <!-- Fill in the row for Functions -->
+        <tr>
+          <td><b>Functions</b></td>
+          <td> A function causes a certain action. </td>
+          <td> You use computers for certain projects but not all. </td>
+          <td> *screenshot* </td>
+          <td> In scratch, I know it can be used with variables. </td>
+        </tr>
+
+      </table>
+    </div>
+    
+  </body>
+</html>
